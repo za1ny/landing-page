@@ -63,6 +63,8 @@ img {
 .title2 {
     display: flex;
     justify-content: center;
+    padding: 30px;
+    font-size: 36px;
 }
 
 .flex-picture {
@@ -90,6 +92,28 @@ img {
     border-radius: 25px;
     border: 2px solid #3882F6;
     padding: 20px;
-    width: 200px;
-    height: 100px;
+    width: 130px;
+    height: 120px;
+}
+
+.third-title {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 120px;
+    background-color: #E5E7EB;
+    font-style:italic;
+    font-weight:lighter;
+    font-size: 36px;
+    padding-left: 400px;
+    padding-right: 400px;
+
+}
+
+
+.quote-author {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    font-style: normal;
 }
