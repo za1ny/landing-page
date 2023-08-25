@@ -80,7 +80,7 @@ img {
 
 .flex-picture {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: row;
     padding-left: 120px;
     padding-right: 120px;
