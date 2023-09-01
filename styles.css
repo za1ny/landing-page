@@ -1,10 +1,28 @@
 .flex-header {
     background-color: #1F2937;
-    color: #F9FAF8;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding-bottom: 50px;
     font-size: 20px;
+    color: white;
+}
+
+.flex-header-messi {
+    background-color: #6CACE4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.flex-header-messi img {
+    width: auto;
+    height: 5rem;
+    align-items: center;
+    padding-top: 10px;
 }
 
 ul {
