@@ -8,6 +8,10 @@
     color: white;
 }
 
+body#messi-page {
+    background-color: #6CACE4;
+}
+
 .flex-header-messi {
     background-color: #6CACE4;
     display: flex;
@@ -16,6 +20,7 @@
     padding: 30px;
     font-size: 20px;
     color: white;
+    text-decoration: none;
 }
 
 .flex-header-messi img {
@@ -23,6 +28,33 @@
     height: 5rem;
     align-items: center;
     padding-top: 10px;
+}
+
+.flex-main-messi {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    overflow-wrap: break-word;
+    align-items: center;
+    padding: 3em;
+}
+
+.flex-main-messi-left {
+    display: flex;
+}
+
+.flex-main-messi-left h1{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.flex-main-messi-left p{
+    font-family: 'Playfair Display';
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 ul {
@@ -99,7 +131,23 @@ img {
     font-size: 36px;
 }
 
+.title2-messi {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    padding-top: 0px;
+    font-size: 36px;
+}
+
 .flex-picture {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.flex-picture-messi {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -126,6 +174,33 @@ img {
     padding: 20px;
     width: 130px;
     height: 120px;
+}
+
+.button-messi {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border-radius: 25px;
+    border: 2px solid #ffffff;
+    padding: 20px;
+    width: 130px;
+    height: 140px;
+    max-height: max-content;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+
+
+.box-messi {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-left: 120px;
+    padding-right: 140px;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
 }
 
 .third-title {
