@@ -285,3 +285,11 @@ h3 {
     justify-content: space-around;
     padding-bottom: 50px;
 }
+
+.footer-messi {
+    background-color: #6CACE4;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
